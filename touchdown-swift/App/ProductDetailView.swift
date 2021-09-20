@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProductDetailView: View {
     // MARK: - PROPERTIES
-    
+
     // MARK: - BODY
 
     var body: some View {
@@ -18,20 +18,23 @@ struct ProductDetailView: View {
             NavigationBarDetailView()
                 .padding(.horizontal)
                 .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-            
+
             // HEADER
-            Text(sampleProducs.name)
-            
+            HeaderDetailView()
+                .padding(.horizontal)
+
             // DETAIL TOP PART
-            
+            TopPartDetailView()
+                .padding(.horizontal)
+
             // DETAIL BOTTOM PART
-            
+
             // RATINGS + SIZES
-            
+
             // DESCRIPTION
-            
+
             // QUANTITY + FAVOURITE
-            
+
             // ADD TO CART
             Spacer()
         }) //: VSTACK

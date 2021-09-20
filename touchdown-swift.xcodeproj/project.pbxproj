@@ -35,6 +35,8 @@
 		C1E5363826F9380A00D1108B /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5363726F9380A00D1108B /* BrandGridView.swift */; };
 		C1E5363A26F9395800D1108B /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5363926F9395800D1108B /* ProductDetailView.swift */; };
 		C1E5363C26F93AA100D1108B /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5363B26F93AA100D1108B /* NavigationBarDetailView.swift */; };
+		C1E5363E26F93BB900D1108B /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5363D26F93BB900D1108B /* HeaderDetailView.swift */; };
+		C1E5364026F93C5200D1108B /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5363F26F93C5200D1108B /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		C1E5363726F9380A00D1108B /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
 		C1E5363926F9395800D1108B /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		C1E5363B26F93AA100D1108B /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		C1E5363D26F93BB900D1108B /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		C1E5363F26F93C5200D1108B /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				C1E5363B26F93AA100D1108B /* NavigationBarDetailView.swift */,
+				C1E5363D26F93BB900D1108B /* HeaderDetailView.swift */,
+				C1E5363F26F93C5200D1108B /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C19BDDE926F7F6D200771646 /* FeatureItemView.swift in Sources */,
+				C1E5363E26F93BB900D1108B /* HeaderDetailView.swift in Sources */,
+				C1E5364026F93C5200D1108B /* TopPartDetailView.swift in Sources */,
 				C19BDDE726F7F58500771646 /* CodableBundleExtension.swift in Sources */,
 				C1C42D3F26F7EAB000A0CE43 /* ContentView.swift in Sources */,
 				C19BDDE326F7F1F000771646 /* LogoView.swift in Sources */,
