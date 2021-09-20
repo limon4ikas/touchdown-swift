@@ -48,7 +48,8 @@ struct ProductDetailView: View {
                     .padding(.vertical, 10)
 
                 // ADD TO CART
-                Spacer()
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
             }) //: VSTACK
                 .padding(.horizontal)
                 .background(Color.white.clipShape(CustomShaper()).padding(.top, -105))

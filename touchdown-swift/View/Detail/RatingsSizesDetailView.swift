@@ -53,7 +53,7 @@ struct RatingsSizesDetailView: View {
                                 .foregroundColor(colorGray)
                                 .frame(width: 28, height: 28, alignment: .center)
                                 .background(Color.white.cornerRadius(5))
-                                .background(RoundedRectangle(cornerRadius: 5).stroke(lineWidth: 2))
+                                .background(RoundedRectangle(cornerRadius: 5).stroke(lineWidth: 2).fill(colorGray))
                         }) //: BUTTON
                     } //: LOOP
                 }) //: HSTACK
