@@ -38,6 +38,7 @@
 		C1E5363E26F93BB900D1108B /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5363D26F93BB900D1108B /* HeaderDetailView.swift */; };
 		C1E5364026F93C5200D1108B /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5363F26F93C5200D1108B /* TopPartDetailView.swift */; };
 		C1E5364226F93F1500D1108B /* CustomShaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5364126F93F1500D1108B /* CustomShaper.swift */; };
+		C1E5364426F940E700D1108B /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5364326F940E700D1108B /* RatingsSizesDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		C1E5363D26F93BB900D1108B /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		C1E5363F26F93C5200D1108B /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		C1E5364126F93F1500D1108B /* CustomShaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShaper.swift; sourceTree = "<group>"; };
+		C1E5364326F940E700D1108B /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				C1E5363B26F93AA100D1108B /* NavigationBarDetailView.swift */,
 				C1E5363D26F93BB900D1108B /* HeaderDetailView.swift */,
 				C1E5363F26F93C5200D1108B /* TopPartDetailView.swift */,
+				C1E5364326F940E700D1108B /* RatingsSizesDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				C1C42D5E26F7ED2600A0CE43 /* FooterView.swift in Sources */,
 				C13A2D9A26F932D5009F6D3C /* ProductItemView.swift in Sources */,
 				C1E5363826F9380A00D1108B /* BrandGridView.swift in Sources */,
+				C1E5364426F940E700D1108B /* RatingsSizesDetailView.swift in Sources */,
 				C1C42D3D26F7EAB000A0CE43 /* TouchdownApp.swift in Sources */,
 				C1E5364226F93F1500D1108B /* CustomShaper.swift in Sources */,
 				C1E5363A26F9395800D1108B /* ProductDetailView.swift in Sources */,
